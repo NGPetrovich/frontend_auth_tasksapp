@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://backend-of-tasks-app.onrender.com/api/goals/";
+const API_URL = "/api/goals/";
 
 // Create new goal
 const createGoal = async (goalData, token) => {
